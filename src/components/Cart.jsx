@@ -1,4 +1,4 @@
-import { SlideOver } from './SlideOver'
+import SlideOver from './SlideOver'
 import { useCart } from '../contexts/useCartContext'
 
 export default function Cart({ open, setOpen }) {

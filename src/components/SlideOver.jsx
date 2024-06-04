@@ -1,7 +1,7 @@
 import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 
-export default function Cart({ open, setOpen, children, title }) {
+export default function SlideOver({ open, setOpen, children, title }) {
   return (
     <Transition show={open}>
       <Dialog className="relative z-10" onClose={setOpen}>
